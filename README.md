@@ -15,3 +15,8 @@ So, this repository contains the my solutions to all of the exercises as I work 
 - [Functions-3](./ch5/Functions-3/README.md)
 - [Functions-4](./ch5/Functions-4/README.md)
 - [Functions-5](./ch5/Functions-5/README.md)
+
+### Chapter 6
+- [ModulesAndFunctions-1](./ch6/ModulesAndFunctions-1/README.md)
+- [ModulesAndFunctions-2](./ch6/ModulesAndFunctions-2/README.md)
+- [ModulesAndFunctions-3](./ch6/ModulesAndFunctions-3/README.md)
