@@ -20,3 +20,6 @@ So, this repository contains the my solutions to all of the exercises as I work 
 - [ModulesAndFunctions-1](./ch6/ModulesAndFunctions-1/README.md)
 - [ModulesAndFunctions-2](./ch6/ModulesAndFunctions-2/README.md)
 - [ModulesAndFunctions-3](./ch6/ModulesAndFunctions-3/README.md)
+- [ModulesAndFunctions-4](./ch6/ModulesAndFunctions-4/README.md)
+- [ModulesAndFunctions-5](./ch6/ModulesAndFunctions-5/README.md)
+- [ModulesAndFunctions-6](./ch6/ModulesAndFunctions-6/README.md)
