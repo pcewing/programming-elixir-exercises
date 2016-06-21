@@ -42,3 +42,4 @@ So, this repository contains my solutions to all of the exercises as I work thro
 - [StringsAndBinaries-2](./ch11/StringsAndBinaries-2/README.md)
 - [StringsAndBinaries-3](./ch11/StringsAndBinaries-3/README.md)
 - [StringsAndBinaries-4](./ch11/StringsAndBinaries-4/README.md)
+- [StringsAndBinaries-5](./ch11/StringsAndBinaries-5/README.md)
