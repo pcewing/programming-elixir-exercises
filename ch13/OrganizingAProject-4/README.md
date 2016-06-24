@@ -2,7 +2,7 @@
 (Tricky) Before reading the next section, see if you can write the code to format the data into columns, like the sample output at the start of the chapter. This is probably the longest piece of Elixir code you'll have written. Try to do it without using *if* or *cond*.
 
 ## Solution
-See the `./issues` directory for the mix project containing the solution.
+See the [issues](./issues) directory for the mix project containing the solution.
 
 So, it definitely isn't pretty but it works. I'm sure I could clean this up considerably but I'm going to be lazy since I want to move on to the fun stuff. Here it is in *iex*:
 ```

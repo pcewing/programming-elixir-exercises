@@ -2,7 +2,7 @@
 Add the dependency to your project and install it.
 
 ## Solution
-See the `./issues` directory for the mix project containing the solution.
+See the [issues](./issues) directory for the mix project containing the solution.
 
 This change specifically was adding the following dependency to the *mix.exs* file:
 ```
