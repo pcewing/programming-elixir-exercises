@@ -50,3 +50,10 @@ So, this repository contains my solutions to all of the exercises as I work thro
 - [ControlFlow-1](./ch12/ControlFlow-1/README.md)
 - [ControlFlow-2](./ch12/ControlFlow-2/README.md)
 - [ControlFlow-3](./ch12/ControlFlow-3/README.md)
+
+### Chapter 13
+- [OrganizingAProject-1](./ch13/OrganizingAProject-1/README.md)
+- [OrganizingAProject-2](./ch13/OrganizingAProject-2/README.md)
+- [OrganizingAProject-3](./ch13/OrganizingAProject-3/README.md)
+- [OrganizingAProject-4](./ch13/OrganizingAProject-4/README.md)
+- [OrganizingAProject-6](./ch13/OrganizingAProject-6/README.md)
