@@ -1,7 +1,5 @@
 # Programming Elixir Exercises
-I recently purchased a few books in order to learn more about Elixir. The first one I am reading is *Programming Elixir*. I am actually farther ahead in the book as I read through the first 10 or so chapters without doing any of the exercises; however, I started to go back and quiz myself to ensure I'm actually remembering the things I'm reading.
-
-So, this repository contains my solutions to all of the exercises as I work through them. I will try to write them in a manner to where they could be helpful to others in case someone is searching for a solution and finds mine.
+I recently purchased a few books in order to learn more about Elixir. The first one I am reading is *Programming Elixir*. This repository contains my solutions to all of the exercises as I work through them. I will try to write them in a manner to where they could be helpful to others in case someone is searching for a solution and finds mine.
 
 ## Index
 ### Chapter 2
@@ -57,3 +55,7 @@ So, this repository contains my solutions to all of the exercises as I work thro
 - [OrganizingAProject-3](./ch13/OrganizingAProject-3/README.md)
 - [OrganizingAProject-4](./ch13/OrganizingAProject-4/README.md)
 - [OrganizingAProject-6](./ch13/OrganizingAProject-6/README.md)
+
+### Chapter 14
+- [WorkingWithMultipleProcesses-1](./ch14/WorkingWithMultipleProcesses-1/README.md)
+- [WorkingWithMultipleProcesses-2](./ch14/WorkingWithMultipleProcesses-2/README.md)
