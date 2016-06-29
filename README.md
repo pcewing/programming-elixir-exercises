@@ -65,3 +65,4 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 - [WorkingWithMultipleProcesses-6](./ch14/WorkingWithMultipleProcesses-6/README.md)
 - [WorkingWithMultipleProcesses-7](./ch14/WorkingWithMultipleProcesses-7/README.md)
 - [WorkingWithMultipleProcesses-8](./ch14/WorkingWithMultipleProcesses-8/README.md)
+- [WorkingWithMultipleProcesses-9](./ch14/WorkingWithMultipleProcesses-9/README.md)
