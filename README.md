@@ -72,3 +72,7 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 - [Nodes-2](./ch15/Nodes-2/README.md)
 - [Nodes-3](./ch15/Nodes-3/README.md)
 - [Nodes-4](./ch15/Nodes-4/README.md)
+
+### Chapter 16
+- [OTP-Servers-1](./ch16/OTP-Servers-1/README.md)
+- [OTP-Servers-2](./ch16/OTP-Servers-2/README.md)
