@@ -4,4 +4,6 @@ When I introduced the internal server, I said it sent a tick "about every 2 seco
 ## Solution
 The ticker should send a message pretty accurately every 2000ms; however, I would assume there is a certain overhead, albeit small, involved in the message being delivered to the remote node. This would be more apparent when the nodes are not both on the same machine.
 
+Also, every time a client registers, the 2000ms counter will restart.
+
 (There is also probably a couple microseconds or so of overhead just making the recursive call but I would think this is negligible.)
