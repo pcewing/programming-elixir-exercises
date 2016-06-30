@@ -31,3 +31,29 @@ Inspecting the results:
 ```
 
 I'm not surprised that a single process performs pretty much just as well or better than multiple processes given that the VM this is running is only has a single core. I'd like to run this again on my home PC to see the difference.
+
+### At Home
+Running this again on my home PC I see the following performance:
+```
+iex> Runner.run
+
+Inspecting the results:
+%{"test_files/file028.txt" => 3761, "test_files/file091.txt" => 3840, "test_files/file052.txt" => 3696, "test_files/file075.txt" => 3819, "test_files/file021.txt" => 3761, "test_files/file002.txt" => 3755, "test_files/file093.txt" => 3720, "test_files/file047.txt" => 3766, "test_files/file066.txt" => 3832, "test_files/file058.txt" => 3744, "test_files/file055.txt" => 3727, "test_files/file042.txt" => 3784, "test_files/file083.txt" => 3646, "test_files/file096.txt" => 3761, "test_files/file003.txt" => 3787, "test_files/file067.txt" => 3660, "test_files/file078.txt" => 3707, "test_files/file015.txt" => 3713, "test_files/file097.txt" => 3752, "test_files/file017.txt" => 3682, "test_files/file068.txt" => 3713, "test_files/file088.txt" => 3733, "test_files/file053.txt" => 3818, "test_files/file071.txt" => 3827, "test_files/file098.txt" => 3674, "test_files/file023.txt" => 3739, "test_files/file084.txt" => 3739, "test_files/file010.txt" => 3850, "test_files/file035.txt" => 3778, "test_files/file063.txt" => 3807, "test_files/file050.txt" => 3719, "test_files/file007.txt" => 3783, "test_files/file027.txt" => 3765, "test_files/file072.txt" => 3785, "test_files/file090.txt" => 3721, "test_files/file025.txt" => 3801, "test_files/file056.txt" => 3744, "test_files/file012.txt" => 3707, "test_files/file033.txt" => 3771, "test_files/file001.txt" => 3779, "test_files/file024.txt" => 3805, "test_files/file060.txt" => 3773, "test_files/file032.txt" => 3728, "test_files/file059.txt" => 3696, "test_files/file094.txt" => 3762, "test_files/file077.txt" => 3857, "test_files/file089.txt" => 3805, "test_files/file082.txt" => 3689, "test_files/file040.txt" => 3720, "test_files/file030.txt" => 3748, ...}
+
+
+
+ #   time (ms)
+ 1     207.98
+ 2     96.31
+ 3     78.04
+ 4     67.39
+ 5     60.59
+ 6     49.32
+ 7     58.59
+ 8     49.99
+ 9     60.67
+10     46.11
+:ok
+```
+
+Nice! From a 208ms execution time down to a 49ms execution time going from 1 to 6 processes. There seems to be some fluctuation and I would think this has something to do with the inconsistency of disk read/write but regardless the execution time was cut down to a quarter of the original by handling the work concurrently.
