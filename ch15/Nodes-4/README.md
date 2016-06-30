@@ -6,11 +6,11 @@ When thinking about how to add clients to the ring, remember to deal with the ca
 ## Solution
 See the [ticker.exs](./ticker.exs) file for the full module.
 
-I'm implenting this using the idea of leaders and followers. The first client to register declares itself the leader. The leader is responsible for listening for registration requests from other followers as well as emitting the tick message to the next client in the chain. When the leader is the only one in the chain, it simply prints tick and continues being the leader.
+I'm implementing this using the idea of leaders and followers. The first client to register declares itself the leader. The leader is responsible for listening for registration requests from other clients as well as emitting the tick message to the next client in the chain. When the leader is the only one in the chain, it simply prints tick and continues being the leader.
 
 When the leader is not the only one in the chain, it will increment the index of the next leader, unregister its name globally, and then send the tick message along with the state to the next leader.
 
-The follower who receives the tick message will then declare itself the leader by registering the leader name. It is then takes on the leadership responsibilities previously mentioned.
+The follower who receives the tick message will declare itself the leader by registering the leader name. It then takes on the leadership responsibilities previously mentioned.
 
 This is the initial client. You can see that until another client registers it simply ticks.
 ```
