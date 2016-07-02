@@ -3,31 +3,31 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 
 ## Index
 ### Chapter 2
-- [PatternMatching-1](./ch2/PatternMatching-1/README.md)
-- [PatternMatching-2](./ch2/PatternMatching-2/README.md)
-- [PatternMatching-3](./ch2/PatternMatching-3/README.md)
+- [PatternMatching-1](./ch02/PatternMatching-1/README.md)
+- [PatternMatching-2](./ch02/PatternMatching-2/README.md)
+- [PatternMatching-3](./ch02/PatternMatching-3/README.md)
 
 ### Chapter 5
-- [Functions-1](./ch5/Functions-1/README.md)
-- [Functions-2](./ch5/Functions-2/README.md)
-- [Functions-3](./ch5/Functions-3/README.md)
-- [Functions-4](./ch5/Functions-4/README.md)
-- [Functions-5](./ch5/Functions-5/README.md)
+- [Functions-1](./ch05/Functions-1/README.md)
+- [Functions-2](./ch05/Functions-2/README.md)
+- [Functions-3](./ch05/Functions-3/README.md)
+- [Functions-4](./ch05/Functions-4/README.md)
+- [Functions-5](./ch05/Functions-5/README.md)
 
 ### Chapter 6
-- [ModulesAndFunctions-1](./ch6/ModulesAndFunctions-1/README.md)
-- [ModulesAndFunctions-2](./ch6/ModulesAndFunctions-2/README.md)
-- [ModulesAndFunctions-3](./ch6/ModulesAndFunctions-3/README.md)
-- [ModulesAndFunctions-4](./ch6/ModulesAndFunctions-4/README.md)
-- [ModulesAndFunctions-5](./ch6/ModulesAndFunctions-5/README.md)
-- [ModulesAndFunctions-6](./ch6/ModulesAndFunctions-6/README.md)
-- [ModulesAndFunctions-7](./ch6/ModulesAndFunctions-7/README.md)
+- [ModulesAndFunctions-1](./ch06/ModulesAndFunctions-1/README.md)
+- [ModulesAndFunctions-2](./ch06/ModulesAndFunctions-2/README.md)
+- [ModulesAndFunctions-3](./ch06/ModulesAndFunctions-3/README.md)
+- [ModulesAndFunctions-4](./ch06/ModulesAndFunctions-4/README.md)
+- [ModulesAndFunctions-5](./ch06/ModulesAndFunctions-5/README.md)
+- [ModulesAndFunctions-6](./ch06/ModulesAndFunctions-6/README.md)
+- [ModulesAndFunctions-7](./ch06/ModulesAndFunctions-7/README.md)
 
 ### Chapter 7
-- [ListsAndRecursion-1](./ch7/ListsAndRecursion-1/README.md)
-- [ListsAndRecursion-2](./ch7/ListsAndRecursion-2/README.md)
-- [ListsAndRecursion-3](./ch7/ListsAndRecursion-3/README.md)
-- [ListsAndRecursion-4](./ch7/ListsAndRecursion-4/README.md)
+- [ListsAndRecursion-1](./ch07/ListsAndRecursion-1/README.md)
+- [ListsAndRecursion-2](./ch07/ListsAndRecursion-2/README.md)
+- [ListsAndRecursion-3](./ch07/ListsAndRecursion-3/README.md)
+- [ListsAndRecursion-4](./ch07/ListsAndRecursion-4/README.md)
 
 ### Chapter 10
 - [ListsAndRecursion-5](./ch10/ListsAndRecursion-5/README.md)
@@ -83,3 +83,8 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 ### Chapter 17
 - [OTP-Supervisors-1](./ch17/OTP-Supervisors-1/README.md)
 - [OTP-Supervisors-2](./ch17/OTP-Supervisors-2/README.md)
+
+### Chapter 18
+- [OTP-Applications-1](./ch18/OTP-Applications-1/README.md)
+- [OTP-Applications-2](./ch18/OTP-Applications-2/README.md)
+- [OTP-Applications-3](./ch18/OTP-Applications-3/README.md)
