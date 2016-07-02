@@ -79,3 +79,6 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 - [OTP-Servers-3](./ch16/OTP-Servers-3/README.md)
 - [OTP-Servers-4](./ch16/OTP-Servers-4/README.md)
 - [OTP-Servers-5](./ch16/OTP-Servers-5/README.md)
+
+### Chapter 17
+- [OTP-Supervisors-1](./ch17/OTP-Supervisors-1/README.md)
