@@ -82,3 +82,4 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 
 ### Chapter 17
 - [OTP-Supervisors-1](./ch17/OTP-Supervisors-1/README.md)
+- [OTP-Supervisors-2](./ch17/OTP-Supervisors-2/README.md)
