@@ -41,8 +41,6 @@ end
 defmodule Test do
   require Arithmetic
 
-  Arithmetic.explain do: 1 + 2
-
   def test do
     IO.puts "Explaining: 1 + 2 * 3"
     sentence = Arithmetic.explain do: 1 + 2 * 3
