@@ -88,3 +88,8 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 - [OTP-Applications-1](./ch18/OTP-Applications-1/README.md)
 - [OTP-Applications-2](./ch18/OTP-Applications-2/README.md)
 - [OTP-Applications-3](./ch18/OTP-Applications-3/README.md)
+
+### Chapter 20
+- [MacrosAndCodeEvaluation-1](./ch20/MacrosAndCodeEvaluation-1/README.md)
+- [MacrosAndCodeEvaluation-2](./ch20/MacrosAndCodeEvaluation-2/README.md)
+- [MacrosAndCodeEvaluation-3](./ch20/MacrosAndCodeEvaluation-3/README.md)
