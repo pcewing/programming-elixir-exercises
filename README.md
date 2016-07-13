@@ -93,3 +93,8 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 - [MacrosAndCodeEvaluation-1](./ch20/MacrosAndCodeEvaluation-1/README.md)
 - [MacrosAndCodeEvaluation-2](./ch20/MacrosAndCodeEvaluation-2/README.md)
 - [MacrosAndCodeEvaluation-3](./ch20/MacrosAndCodeEvaluation-3/README.md)
+
+### Chapter 21
+- [LinkingModules-BehavioursAndUse-1](./ch21/LinkingModules-BehavioursAndUse-1/README.md)
+- [LinkingModules-BehavioursAndUse-2](./ch21/LinkingModules-BehavioursAndUse-2/README.md)
+- [LinkingModules-BehavioursAndUse-3](./ch21/LinkingModules-BehavioursAndUse-3/README.md)
