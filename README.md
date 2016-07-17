@@ -98,3 +98,7 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 - [LinkingModules-BehavioursAndUse-1](./ch21/LinkingModules-BehavioursAndUse-1/README.md)
 - [LinkingModules-BehavioursAndUse-2](./ch21/LinkingModules-BehavioursAndUse-2/README.md)
 - [LinkingModules-BehavioursAndUse-3](./ch21/LinkingModules-BehavioursAndUse-3/README.md)
+
+### Chapter 22
+- [Protocols-1](./ch22/Protocols-1/README.md)
+- [Protocols-2](./ch22/Protocols-2/README.md)
