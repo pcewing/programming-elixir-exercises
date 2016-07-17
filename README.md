@@ -102,3 +102,5 @@ I recently purchased a few books in order to learn more about Elixir. The first 
 ### Chapter 22
 - [Protocols-1](./ch22/Protocols-1/README.md)
 - [Protocols-2](./ch22/Protocols-2/README.md)
+- [Protocols-3](./ch22/Protocols-3/README.md)
+- [Protocols-4](./ch22/Protocols-4/README.md)
