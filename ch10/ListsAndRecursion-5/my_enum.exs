@@ -22,16 +22,16 @@ defmodule MyEnum do
   defp do_each([], _), do: :ok
 
   def filter(list, condition) when is_list(list) and is_function(condition) do
-    do_filter(list, condition, [])
+    do_filter(list, condition)
   end
 
-  defp do_filter([h | t], condition, acc) do
+  defp do_filter([h | t], condition) do
     case condition.(h) do
-      true -> do_filter(t, condition, [h | acc])
-      false -> do_filter(t, condition, acc)
+      true -> [h | do_filter(t, condition)]
+      false -> do_filter(t, condition)
     end
   end
-  defp do_filter([], _, acc), do: acc
+  defp do_filter([], _), do: []
 
   def split(list, split_on) when is_list(list) do
     do_split(list, split_on, [])
