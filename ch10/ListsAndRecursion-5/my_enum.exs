@@ -52,5 +52,3 @@ defmodule MyEnum do
   defp do_take(_, n, acc) when n == 0, do: Enum.reverse acc
   defp do_take([], _, acc), do: Enum.reverse acc
 end
-
-Enum.map(1..100000, fn x -> x end) |> MyEnum.filter(fn x -> x > 134 end)
