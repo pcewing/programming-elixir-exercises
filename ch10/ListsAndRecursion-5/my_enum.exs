@@ -23,7 +23,6 @@ defmodule MyEnum do
 
   def filter(list, condition) when is_list(list) and is_function(condition) do
     do_filter(list, condition, [])
-    |> Enum.reverse
   end
 
   defp do_filter([h | t], condition, acc) do
@@ -32,7 +31,7 @@ defmodule MyEnum do
       false -> do_filter(t, condition, acc)
     end
   end
-  defp do_filter([], _, acc), do: acc
+  defp do_filter([], _, acc), do: Enum.reverse acc
 
   def split(list, split_on) when is_list(list) do
     do_split(list, split_on, [])
